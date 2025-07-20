@@ -1,4 +1,5 @@
 import { I18nProvider } from '../i18n/i18nContext';
+import "./globals.css";
 
 export const metadata = {
   title: 'Next.js i18n Example',
