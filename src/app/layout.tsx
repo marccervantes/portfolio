@@ -2,6 +2,13 @@ import { I18nProvider } from '../i18n/i18nContext';
 import "./globals.css";
 import Footer from './pages/footer';
 import Nav from './pages/nav';
+import { Space_Grotesk } from 'next/font/google';
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'], // Elige los pesos que necesites
+  display: 'swap',
+});
 
 export const metadata = {
   title: 'Portfolio',
@@ -15,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body>
+      <body className={spaceGrotesk.className}>
         <I18nProvider>
           <Nav />
             {children}

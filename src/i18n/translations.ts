@@ -1,11 +1,11 @@
 export const translations = {
   en: {
-    greeting: "Hello!",
-    description: "Welcome to my website.",
+    aboutMe: "About me",
+    projects: "Projects",
   },
   es: {
-    greeting: "¡Hola!",
-    description: "Bienvenido a mi sitio web.",
+    aboutMe: "Sobre mi",
+    projects: "Proyectos",
   },
 };
 
