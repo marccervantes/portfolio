@@ -19,7 +19,6 @@ const Nav: React.FC = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap">DevPortfolio</span>
             </a>
             <div className="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
                 <div className="relative inline-block text-left" ref={dropdownRef}>
@@ -31,7 +30,7 @@ const Nav: React.FC = () => {
                     </button>
 
                     {dropdownOpen && (
-                        <ul className="items-center absolute -left-12 mt-2 w-32 bg-white border border-gray-300 rounded shadow-lg z-10">
+                        <ul className="items-center absolute -left-12 mt-2 w-32 border border-gray-300 rounded shadow-lg z-10">
                             <li>
                                 <button
                                     onClick={() => handleLocaleChange('en')}
