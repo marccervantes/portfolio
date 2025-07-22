@@ -1,7 +1,7 @@
 import { I18nProvider } from '../i18n/i18nContext';
 import "./globals.css";
-import Footer from './pages/footer';
-import Nav from './pages/nav';
+import Footer from './components/footer';
+import Nav from './components/nav';
 import { Space_Grotesk } from 'next/font/google';
 
 const spaceGrotesk = Space_Grotesk({

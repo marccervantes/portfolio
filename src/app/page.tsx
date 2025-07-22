@@ -1,6 +1,6 @@
 'use client';
 
-import Main from './pages/main';
+import Main from './components/main';
 
 export default function Home() {
 
