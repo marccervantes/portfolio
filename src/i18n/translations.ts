@@ -2,10 +2,12 @@ export const translations = {
   en: {
     aboutMe: "About me",
     projects: "Projects",
+    contact: "Contact",
   },
   es: {
     aboutMe: "Sobre mi",
     projects: "Proyectos",
+    contact: "Contacto",
   },
 };
 

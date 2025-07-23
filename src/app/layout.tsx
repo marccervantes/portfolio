@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`${spaceGrotesk.className} bg-gradient-to-r from-white to-blue-100`}>
+      <body className={`${spaceGrotesk.className} bg-gradient-to-r from-white to-blue-100`} cz-shortcut-listen="true">
       {/* <body className={`${spaceGrotesk.className} bg-gradient-to-r from-white to-gray-100`}> */}
         <I18nProvider>
           <Nav />
