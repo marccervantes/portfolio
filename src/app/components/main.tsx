@@ -12,11 +12,11 @@ const Main: React.FC = () => {
                         {/* Content */}
                         <div className="text-center lg:text-left order-2 lg:order-1">
                             <div className="mb-6">
-                                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-4 leading-tight">Hola, soy Marc Cervantes</h1>
+                                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-4 leading-tight">{t('intro')} Marc Cervantes</h1>
                                 <h2 className="text-lg sm:text-xl lg:text-2xl text-muted-foreground mb-6 font-medium">Full Stack Developer</h2>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-                                <a href='https://www.linkedin.com/in/marc-cervantes-garcia/' className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-blue-800 text-white font-semibold transition-all duration-300 ease-in-out gap-2"
+                                <a href='https://www.linkedin.com/in/marc-cervantes-garcia/' target='_blank' className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-[color:var(--button-color)] text-white font-semibold transition-all duration-300 ease-in-out gap-2"
                                 >
                                     Linkedin
                                 </a>
@@ -32,25 +32,22 @@ const Main: React.FC = () => {
                 </div>
             </section>
             <section id='projects' className='grid grid-cols-1 gap-8 my-8'>
-                <h3 className='font-semibold text-[2.8rem] self-start'>Projects</h3>
+                <h3 className='font-semibold text-[2.8rem] self-start'>{t('projects')}</h3>
                 <div className='block md:flex flex-row items-center justify-center gap-8'>
                     <a href='https://github.com/marccervantes/apicrypto' target='_blank' rel='nofollow'>
                         <img className="w-full h-auto rounded-[0.8rem] object-cover transition duration-300 ease-in-out" src="/images/projects/apicrypto.webp" alt="" />
                     </a>
                     <div className='w-full mt-8 md:w-[80%] text-center md:text-start flex flex-col items-start justify-center leading-[1.8rem] gap-[1.2rem]'>
                         <p className='text-[2.8rem] w-full font-bold text-black'>Apicrypto</p>
-                        <p className='font-medium text-[var(--font-color-2)] [text-wrap:pretty]'>
-                            Esta aplicación te permite ver fácilmente las 100 criptomonedas más populares del mercado, mostrando su precio actual y si han subido o bajado en las últimas 24 horas. Así puedes estar al tanto de los movimientos más importantes en el mundo cripto sin complicaciones, desde cualquier dispositivo y en cualquier momento.
-                        </p>
+                        <p className='font-medium text-[var(--font-color-2)] [text-wrap:pretty]'>{t('apicrypto')}</p>
                         <div className='flex flex-row items-center justify-start gap-4'>
                             <img className="min-h-inherit w-full h-8 rounded-[0.8rem] object-cover transition duration-300 ease-in-out" src="/images/languages/react.webp" alt="" />
-                            <img className="min-h-inherit w-full h-8 rounded-[0.8rem] object-cover transition duration-300 ease-in-out" src="/images/languages/tailwindcss.webp" alt="" />
                         </div>
                         <div className='flex flex-row items-center justify-start gap-4'>
-                            <a href='https://github.com/marccervantes/apicrypto' target="_blank" className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-blue-800 text-white font-semibold transition-all duration-300 ease-in-out gap-2">
-                                Código
+                            <a href='https://github.com/marccervantes/apicrypto' target="_blank" className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-[color:var(--button-color)] text-white font-semibold transition-all duration-300 ease-in-out gap-2">
+                                {t('code')}
                             </a>
-                            <a href='https://apicrypto.marccervantes.com/' target="_blank" className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-blue-800 text-white font-semibold transition-all duration-300 ease-in-out gap-2">
+                            <a href='https://apicrypto.marccervantes.com/' target="_blank" className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-[color:var(--button-color)] text-white font-semibold transition-all duration-300 ease-in-out gap-2">
                                 Demo
                             </a>
                         </div>
@@ -58,33 +55,28 @@ const Main: React.FC = () => {
                 </div>
                 {/*  */}
                 <div className='w-32 mx-auto mt-5'>
-                    <a href='https://github.com/marccervantes/' target="_blank" className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-blue-800 text-white font-semibold transition-all duration-300 ease-in-out gap-2">
-                        Ver más
+                    <a href='https://github.com/marccervantes/' target="_blank" className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-[color:var(--button-color)] text-white font-semibold transition-all duration-300 ease-in-out gap-2">
+                        {t('lookMore')}
                     </a>
                 </div>
             </section>
             <section id='about-me' className='grid grid-cols-1 gap-8 my-8'>
-                <h3 className='font-semibold text-[2.8rem] self-start'>About me</h3>
-                <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-lg mx-auto lg:mx-0">
-                    I'm a web developer with experience in designing and building responsive websites and web applications. I've worked with a variety of technologies and frameworks, including React, Angular, Laravel, and WordPress, which has allowed me to take on diverse projects and quickly adapt to different tech environments.
-                    I'm known for being a strong team player, adaptable, and committed to continuous learning and improvement. I'm currently looking for new opportunities where I can contribute my skills, take on exciting challenges, and continue growing as a web development professional.
-                </p>
+                <h3 className='font-semibold text-[2.8rem] self-start'>{t('aboutMe')}</h3>
+                <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-lg mx-auto lg:mx-0">{t('aboutMeDescription1')}</p>
+                <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-lg mx-auto lg:mx-0">{t('aboutMeDescription2')}</p>
             </section>
             <section id='contact' className='grid grid-cols-1 gap-8 my-8'>
-                <h3 className='font-semibold text-[2.8rem] self-start'>Contact</h3>
-                    <div className="flex flex-col items-center justify-center gap-8  mx-auto sm:my-24">
+                <h3 className='font-semibold text-[2.8rem] self-start'>{t('contact')}</h3>
+                    <div className="flex flex-col items-center justify-center gap-8  mx-auto">
                         {/* <p className="text-lg text-gray-700 mb-6text-[28px] font-medium text-center"> */}
-                        <p className="text-lg mb-6text-[28px] font-medium text-center">
-                            ¡Mi correo electrónico siempre está abierto!
-                        </p>
+                        <p className="text-lg mb-6text-[28px] font-medium text-center">{t('email')}</p>
                         <div className="md:flex md:items-center md:justify-center gap-4 w-full">
                             <div className="px-4 py-[9px] h-11 bg-[#F7F7F7] rounded-md border text-[18px] font-medium w-full overflow-hidden">
                                 <span className='block overflow-hidden text-ellipsis whitespace-nowrap'>hola@marccervantes.com</span>
                             </div>
                             <div className="flex items-center justify-center gap-4 mt-4 md:m-auto">
                                 <a href="mailto:hola@marccervantes.com"
-                                    className="bg-blue-800 text-white px-4 py-3 rounded-md text-xl font-semibold transition-all gap-2"
-                                    // className="bg-[color:var(--bg-color-button-2)] text-[color:var(--bg-color)]"
+                                    className="bg-[color:var(--button-color)] text-white px-4 py-3 rounded-md text-xl font-semibold transition-all gap-2"
                                 >
                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2"
                                         strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
@@ -93,8 +85,8 @@ const Main: React.FC = () => {
                                         <path d="M21 3l-6.5 18a.55.55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55.55 0 0 1 0 -1l18 -6.5"></path>
                                     </svg>
                                 </a>
-                            <button className="bg-blue-800 text-white px-4 py-3 rounded-md text-[1.2rem] font-semibold transition-all gap-2"
-                                onClick={() => navigator.clipboard.writeText('hola@marccervantes.com')}
+                            <button className="bg-[color:var(--button-color)] text-white cursor-pointer px-4 py-3 rounded-md text-[1.2rem] font-semibold transition-all gap-2"
+                                onClick={() => navigator.clipboard.writeText("hola@marccervantes.com")}
                             >
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2"
                                     strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">

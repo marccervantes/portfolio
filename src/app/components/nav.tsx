@@ -17,9 +17,12 @@ const Nav: React.FC = () => {
   return (
     <nav className="border-gray-200">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
-            </a>
+            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-code w-5 h-5 text-primary-foreground">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+            </div>
             <div className="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
                 <div className="relative inline-block text-left" ref={dropdownRef}>
                     <button
