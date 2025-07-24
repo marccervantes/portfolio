@@ -5,6 +5,11 @@
   --button-color: #171717;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--foreground);
 }
+

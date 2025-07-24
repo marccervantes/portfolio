@@ -11,8 +11,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: 'Portfolio',
-  description: 'Example of i18n without routes in Next.js 13+',
+  title: 'Marc Cervantes Garcia',
+  description: "I'm a web developer with experience in designing and building responsive websites and web applications. I've worked with a variety of technologies and frameworks, including React, Angular, Laravel, and WordPress, which has allowed me to take on diverse projects and quickly adapt to different tech environments.",
 };
 
 export default function RootLayout({
