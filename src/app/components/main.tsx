@@ -53,6 +53,24 @@ const Main: React.FC = () => {
                         </div>
                     </div>
                 </div>
+                <div className='block md:flex flex-row items-center justify-center gap-8'>
+                    <a href='https://planderisas.com/' target='_blank' rel='nofollow'>
+                        <img className="w-full h-auto rounded-[0.8rem] object-cover transition duration-300 ease-in-out" src="/images/projects/planderisas.webp" alt="" />
+                    </a>
+                    <div className='w-full mt-8 md:w-[80%] text-center md:text-start flex flex-col items-start justify-center leading-[1.8rem] gap-[1.2rem]'>
+                        <p className='text-[2.8rem] w-full font-bold text-black'>Plan de risas</p>
+                        {/* <p className='font-medium text-[var(--font-color-2)] [text-wrap:pretty]'>{t('apicrypto')}</p> */}
+                        <p className='font-medium text-[var(--font-color-2)] [text-wrap:pretty]'>text here</p>
+                        <div className='flex flex-row items-center justify-start gap-4'>
+                            <img className="min-h-inherit w-full h-8 rounded-[0.8rem] object-cover transition duration-300 ease-in-out" src="/images/languages/laravel.webp" alt="" />
+                        </div>
+                        <div className='flex flex-row items-center justify-start gap-4'>
+                            <a href='https://planderisas.com/' target="_blank" className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-[color:var(--button-color)] text-white font-semibold transition-all duration-300 ease-in-out gap-2">
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 {/*  */}
                 <div className='w-32 mx-auto mt-5'>
                     <a href='https://github.com/marccervantes/' target="_blank" className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-[color:var(--button-color)] text-white font-semibold transition-all duration-300 ease-in-out gap-2">
