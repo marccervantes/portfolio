@@ -7,8 +7,8 @@ export const translations = {
     code: "Code",
     lookMore: "Look more",
     apicrypto: "This app allows you to easily view the 100 most popular cryptocurrencies on the market, showing their current price and whether they have risen or fallen in the last 24 hours. This way, you can stay up to date with the most important movements in the crypto world without any complications, from any device and at any time.",
-    aboutMeDescription1: "I'm a web developer with experience in designing and building responsive websites and web applications. I've worked with a variety of technologies and frameworks, including React, Angular, Laravel, and WordPress, which has allowed me to take on diverse projects and quickly adapt to different tech environments.",
-    aboutMeDescription2: "Ability to work in a team, adaptable, and committed to continuous learning and improvement. I'm currently looking for new opportunities where I can contribute my skills, take on exciting challenges, and continue growing as a web development professional.",
+    aboutMeDescription1: "I'm a web developer with experience in designing and building responsive websites and web applications. I've worked in a variety of technologies and frameworks, including React, Angular, Laravel, and WordPress, which has allowed me to take on diverse projects and quickly adapt to different tech environments.",
+    aboutMeDescription2: "Ability to teamwork, adaptable, and committed to continuous learning and improvement. I'm currently looking for new opportunities where I can contribute my skills, take on exciting challenges, and continue growing as a web development professional.",
     email: "My email is always open!"
   },
   es: {
