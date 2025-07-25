@@ -59,8 +59,7 @@ const Main: React.FC = () => {
                     </a>
                     <div className='w-full mt-8 md:w-[80%] text-center md:text-start flex flex-col items-start justify-center leading-[1.8rem] gap-[1.2rem]'>
                         <p className='text-[2.8rem] w-full font-bold text-black'>Plan de risas</p>
-                        {/* <p className='font-medium text-[var(--font-color-2)] [text-wrap:pretty]'>{t('apicrypto')}</p> */}
-                        <p className='font-medium text-[var(--font-color-2)] [text-wrap:pretty]'>text here</p>
+                        <p className='font-medium text-[var(--font-color-2)] [text-wrap:pretty]'>{t('planDeRisas')}</p>
                         <div className='flex flex-row items-center justify-start gap-4'>
                             <img className="min-h-inherit w-full h-8 rounded-[0.8rem] object-cover transition duration-300 ease-in-out" src="/images/languages/laravel.webp" alt="" />
                         </div>
