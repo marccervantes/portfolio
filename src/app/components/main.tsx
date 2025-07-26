@@ -41,7 +41,7 @@ const Main: React.FC = () => {
                         <p className='text-[2.8rem] w-full font-bold text-black'>Apicrypto</p>
                         <p className='font-medium text-[var(--font-color-2)] [text-wrap:pretty]'>{t('apicrypto')}</p>
                         <div className='flex flex-row items-center justify-start gap-4'>
-                            <img className="min-h-inherit w-full h-8 rounded-[0.8rem] object-cover transition duration-300 ease-in-out" src="/images/languages/react.webp" alt="" />
+                            <img className="w-8 h-8 flex-shrink-0 rounded-[0.8rem] object-cover" src="/images/languages/react.webp" alt="" />
                         </div>
                         <div className='flex flex-row items-center justify-start gap-4'>
                             <a href='https://github.com/marccervantes/apicrypto' target="_blank" className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-[color:var(--button-color)] text-white font-semibold transition-all duration-300 ease-in-out gap-2">
@@ -61,7 +61,7 @@ const Main: React.FC = () => {
                         <p className='text-[2.8rem] w-full font-bold text-black'>Plan de risas</p>
                         <p className='font-medium text-[var(--font-color-2)] [text-wrap:pretty]'>{t('planDeRisas')}</p>
                         <div className='flex flex-row items-center justify-start gap-4'>
-                            <img className="min-h-inherit w-full h-8 rounded-[0.8rem] object-cover transition duration-300 ease-in-out" src="/images/languages/laravel.webp" alt="" />
+                            <img className="w-8 h-8 flex-shrink-0 rounded-[0.8rem] object-cover" src="/images/languages/laravel.webp" alt="" />
                         </div>
                         <div className='flex flex-row items-center justify-start gap-4'>
                             <a href='https://planderisas.com/' target="_blank" className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-[color:var(--button-color)] text-white font-semibold transition-all duration-300 ease-in-out gap-2">
