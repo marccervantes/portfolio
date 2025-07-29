@@ -41,7 +41,18 @@ const Main: React.FC = () => {
                         <p className='text-[2.8rem] w-full font-bold text-black'>Apicrypto</p>
                         <p className='font-medium text-[var(--font-color-2)] [text-wrap:pretty]'>{t('apicrypto')}</p>
                         <div className='flex flex-row items-center justify-start gap-4'>
-                            <img className="w-8 h-8 flex-shrink-0 rounded-[0.8rem] object-cover" src="/images/languages/react.webp" alt="" />
+                            <div className="relative group inline-block">
+                                <img className="w-8 h-8 flex-shrink-0 rounded-[0.8rem] object-cover" src="/images/languages/react.webp" alt="" />
+                                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition">
+                                    ReactJS
+                                </span>
+                            </div>
+                            <div className="relative group inline-block">
+                                <img className="w-8 h-8 flex-shrink-0 rounded-[0.8rem] object-cover" src="/images/languages/bootstrap.webp" alt="" />
+                                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition">
+                                    Bootstrap
+                                </span>
+                            </div>
                         </div>
                         <div className='flex flex-row items-center justify-start gap-4'>
                             <a href='https://github.com/marccervantes/apicrypto' target="_blank" className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-[color:var(--button-color)] text-white font-semibold transition-all duration-300 ease-in-out gap-2">
@@ -61,10 +72,61 @@ const Main: React.FC = () => {
                         <p className='text-[2.8rem] w-full font-bold text-black'>Plan de risas</p>
                         <p className='font-medium text-[var(--font-color-2)] [text-wrap:pretty]'>{t('planDeRisas')}</p>
                         <div className='flex flex-row items-center justify-start gap-4'>
-                            <img className="w-8 h-8 flex-shrink-0 rounded-[0.8rem] object-cover" src="/images/languages/laravel.webp" alt="" />
+                            <div className="relative group inline-block">
+                                <img className="w-8 h-8 flex-shrink-0 rounded-[0.8rem] object-cover" src="/images/languages/angular.webp" alt="" />
+                                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition">
+                                    Angular
+                                </span>
+                            </div>
+                            <div className="relative group inline-block">
+                                <img className="w-8 h-8 flex-shrink-0 rounded-[0.8rem] object-cover" src="/images/languages/laravel.webp" alt="" />
+                                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition">
+                                    Laravel
+                                </span>
+                            </div>
+                            <div className="relative group inline-block">
+                                <img className="w-8 h-8 flex-shrink-0 rounded-[0.8rem] object-cover" src="/images/languages/css.webp" alt="" />
+                                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition">
+                                    CSS
+                                </span>
+                            </div>
                         </div>
                         <div className='flex flex-row items-center justify-start gap-4'>
                             <a href='https://planderisas.com/' target="_blank" className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-[color:var(--button-color)] text-white font-semibold transition-all duration-300 ease-in-out gap-2">
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className='block md:flex flex-row items-center justify-center gap-8'>
+                    <a href='https://dkside.com/' target='_blank' rel='nofollow'>
+                        <img className="w-full h-auto rounded-[0.8rem] object-cover transition duration-300 ease-in-out" src="/images/projects/dkside.webp" alt="" />
+                    </a>
+                    <div className='w-full mt-8 md:w-[80%] text-center md:text-start flex flex-col items-start justify-center leading-[1.8rem] gap-[1.2rem]'>
+                        <p className='text-[2.8rem] w-full font-bold text-black'>Dkside</p>
+                        <p className='font-medium text-[var(--font-color-2)] [text-wrap:pretty]'>{t('dkside')}</p>
+                        <div className='flex flex-row items-center justify-start gap-4'>
+                            <div className="relative group inline-block">
+                                <img className="w-8 h-8 flex-shrink-0 rounded-[0.8rem] object-cover" src="/images/languages/shopify.webp" alt="" />
+                                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition">
+                                    Shopify
+                                </span>
+                            </div>
+                            <div className="relative group inline-block">
+                                <img className="w-8 h-8 flex-shrink-0 rounded-[0.8rem] object-cover" src="/images/languages/javascript.webp" alt="" />
+                                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition">
+                                    JavaScript
+                                </span>
+                            </div>
+                            <div className="relative group inline-block">
+                                <img className="w-8 h-8 flex-shrink-0 rounded-[0.8rem] object-cover" src="/images/languages/css.webp" alt="" />
+                                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition">
+                                    CSS
+                                </span>
+                            </div>
+                        </div>
+                        <div className='flex flex-row items-center justify-start gap-4'>
+                            <a href='https://dkside.com/' target="_blank" className="flex items-center justify-center px-4 py-3 rounded-[0.5rem] bg-[color:var(--button-color)] text-white font-semibold transition-all duration-300 ease-in-out gap-2">
                                 Demo
                             </a>
                         </div>
