@@ -51,7 +51,7 @@ const Main: React.FC = () => {
                 />
                 <ProjectCard
                     title="Sushi Counter"
-                    description={t("apicrypto")}
+                    description={t("sushiCounter")}
                     image="/images/projects/sushi-counter.webp"
                     repoUrl="https://github.com/marccervantes/sushi-counter/"
                     demoUrl="https://sushi-counter.marccervantes.com/"
