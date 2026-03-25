@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { useI18n } from '@/i18n/i18nContext';
 import ProjectCard from './projectCard';
 
@@ -30,7 +31,14 @@ const Main: React.FC = () => {
                         {/* Profile Image */}
                         <div className="flex justify-center order-1 lg:order-2">
                             <div className="relative w-60 sm:w-72 md:w-80 lg:w-96 aspect-square rounded-full overflow-hidden shadow-elegant bg-gradient-primary p-1">
-                                <img src="/images/me.jpg" alt="Marc Cervantes - Desarrollador FullStack" className="w-full h-full object-cover rounded-full" />
+                                {/* <img src="/images/me.jpg" alt="Marc Cervantes - Desarrollador FullStack" className="w-full h-full object-cover rounded-full" /> */}
+                                <Image
+                                    src="/images/me.jpg"
+                                    alt="Marc Cervantes - Desarrollador FullStack"
+                                    className="w-full h-full object-cover rounded-full"
+                                    width={300}
+                                    height={300}
+                                />
                             </div>
                         </div>
                     </div>
@@ -96,7 +104,6 @@ const Main: React.FC = () => {
             <section id='contact' className='grid grid-cols-1 gap-8 my-8'>
                 <h3 className='font-semibold text-[2.8rem] self-start'>{t('contact')}</h3>
                     <div className="flex flex-col items-center justify-center gap-8  mx-auto">
-                        {/* <p className="text-lg text-gray-700 mb-6text-[28px] font-medium text-center"> */}
                         <p className="text-lg mb-6text-[28px] font-medium text-center">{t('email')}</p>
                         <div className="md:flex md:items-center md:justify-center gap-4 w-full">
                             <div className="px-4 py-[9px] h-11 bg-[#F7F7F7] rounded-md border text-[18px] font-medium w-full overflow-hidden">

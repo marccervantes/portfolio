@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useI18n } from "@/i18n/i18nContext";
 
 type Tech = {
@@ -27,7 +28,14 @@ export default function ProjectCard({
   return (
     <div className="block md:flex flex-row items-center justify-center gap-8">
       <a href={repoUrl} target="_blank" rel="nofollow">
-        <img src={image} alt={title} className="w-full h-auto rounded-[0.8rem] object-cover transition duration-300 ease-in-out" />
+        {/* <img src={image} alt={title} className="w-full h-auto rounded-[0.8rem] object-cover transition duration-300 ease-in-out" /> */}
+        <Image
+          src={image}
+          alt={title}
+          width={800}
+          height={600}
+          className="w-full h-auto rounded-[0.8rem] object-cover transition duration-300 ease-in-out"
+        />
       </a>
 
       <div className="w-full mt-8 md:w-[80%] text-center md:text-start flex flex-col items-start justify-center leading-[1.8rem] gap-[1.2rem]">
@@ -39,7 +47,14 @@ export default function ProjectCard({
         <div className="flex flex-row items-center justify-start gap-4">
           {techs.map((tech) => (
             <div key={tech.name} className="relative group inline-block">
-              <img src={tech.icon} alt={tech.name} className="w-8 h-8 flex-shrink-0 rounded-[0.8rem] object-cover" />
+              {/* <img src={tech.icon} alt={tech.name} className="w-8 h-8 flex-shrink-0 rounded-[0.8rem] object-cover" /> */}
+              <Image
+                src={tech.icon}
+                alt={tech.name}
+                width={32}
+                height={32}
+                className="flex-shrink-0 rounded-[0.8rem] object-cover"
+              />
               <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition">
                 {tech.name}
               </span>
