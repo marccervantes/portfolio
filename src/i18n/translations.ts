@@ -12,7 +12,9 @@ export const translations = {
     dkside: "I have made custom modifications in Shopify using its native language (Liquid), along with CSS and JavaScript, to achieve specific functionality and design goals. These changes have allowed me to tailor the user experience and interface to meet the unique needs of each project. Whether it involved adjusting layout structures, adding dynamic elements, or optimizing styles, I ensured that every customization aligned with best practices and delivered the desired results.",
     aboutMeDescription1: "I'm a web developer with experience in designing and building responsive websites and web applications. I've worked in a variety of technologies and frameworks, including React, Angular, Laravel, and WordPress, which has allowed me to take on diverse projects and quickly adapt to different tech environments.",
     aboutMeDescription2: "Ability to teamwork, adaptable, and committed to continuous learning and improvement. I'm currently looking for new opportunities where I can contribute my skills, take on exciting challenges, and continue growing as a web development professional.",
-    email: "My email is always open!"
+    email: "My email is always open!",
+    linkedIn: "My LinkedIn is always open!",
+    find: "Find me on LinkedIn"
   },
   es: {
     projects: "Proyectos",
@@ -27,7 +29,9 @@ export const translations = {
     dkside: "He realizado modificaciones personalizadas en Shopify utilizando su lenguaje propio (Liquid), además de CSS y JavaScript, para lograr funcionalidades y diseños específicos. Estos cambios me han permitido adaptar la experiencia del usuario y la interfaz según las necesidades particulares de cada proyecto. Ya sea ajustando estructuras de diseño, incorporando elementos dinámicos u optimizando estilos, me aseguré de que cada personalización siguiera buenas prácticas y cumpliera con los resultados esperados.",
     aboutMeDescription1: "Soy un desarrollador web con experiencia en el diseño y la creación de sitios web y aplicaciones web adaptables. He trabajado con diversas tecnologías y marcos de trabajo, entre ellos React, Angular, Laravel y WordPress, lo que me ha permitido abordar proyectos variados y adaptarme rápidamente a diferentes entornos tecnológicos.",
     aboutMeDescription2: "Habilidad para trabajar en equipo, adaptable y comprometido con el aprendizaje y la mejora continuos. Actualmente busco nuevas oportunidades en las que pueda aportar mis habilidades, asumir retos emocionantes y seguir creciendo como profesional del desarrollo web.",
-    email: "¡Mi correo electrónico siempre está abierto!"
+    email: "¡Mi correo electrónico siempre está abierto!",
+    linkedIn: "¡Mi LinkedIn siempre está abierto!",
+    find: "Encuéntrame en LinkedIn"
   },
 };
 

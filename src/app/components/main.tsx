@@ -104,13 +104,19 @@ const Main: React.FC = () => {
             <section id='contact' className='grid grid-cols-1 gap-8 my-8'>
                 <h3 className='font-semibold text-[2.8rem] self-start'>{t('contact')}</h3>
                     <div className="flex flex-col items-center justify-center gap-8  mx-auto">
-                        <p className="text-lg mb-6text-[28px] font-medium text-center">{t('email')}</p>
+                        <p className="text-lg mb-6text-[28px] font-medium text-center">{t('linkedIn')}</p>
                         <div className="md:flex md:items-center md:justify-center gap-4 w-full">
                             <div className="px-4 py-[9px] h-11 bg-[#F7F7F7] rounded-md border text-[18px] font-medium w-full overflow-hidden">
-                                <span className='block overflow-hidden text-ellipsis whitespace-nowrap'>hola@marccervantes.com</span>
+                                <a href="https://www.linkedin.com/in/marc-cervantes-garcia/"
+                                    target="_blank"
+                                    rel='nofollow'>
+                                    <span className='block overflow-hidden text-ellipsis whitespace-nowrap'>{t('find')}</span>
+                                </a>
                             </div>
                             <div className="flex items-center justify-center gap-4 mt-4 md:m-auto">
-                                <a href="mailto:hola@marccervantes.com"
+                                <a href="https://www.linkedin.com/in/marc-cervantes-garcia/"
+                                    target="_blank"
+                                    rel='nofollow'
                                     className="bg-[color:var(--button-color)] text-white px-4 py-3 rounded-md text-xl font-semibold transition-all gap-2"
                                 >
                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2"
@@ -120,7 +126,7 @@ const Main: React.FC = () => {
                                         <path d="M21 3l-6.5 18a.55.55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55.55 0 0 1 0 -1l18 -6.5"></path>
                                     </svg>
                                 </a>
-                            <button className="bg-[color:var(--button-color)] text-white cursor-pointer px-4 py-3 rounded-md text-[1.2rem] font-semibold transition-all gap-2"
+                            {/* <button className="bg-[color:var(--button-color)] text-white cursor-pointer px-4 py-3 rounded-md text-[1.2rem] font-semibold transition-all gap-2"
                                 onClick={() => navigator.clipboard.writeText("hola@marccervantes.com")}
                             >
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2"
@@ -129,7 +135,7 @@ const Main: React.FC = () => {
                                     <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z"></path>
                                     <path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1"></path>
                                 </svg>
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </div>
