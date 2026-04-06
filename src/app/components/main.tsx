@@ -47,14 +47,15 @@ const Main: React.FC = () => {
             <section id='projects' className='grid grid-cols-1 gap-8 my-8'>
                 <h3 className='font-semibold text-[2.8rem] self-start'>{t('projects')}</h3>
                 <ProjectCard
-                    title="Apicrypto"
-                    description={t("apicrypto")}
-                    image="/images/projects/apicrypto.webp"
-                    repoUrl="https://github.com/marccervantes/apicrypto"
-                    demoUrl="https://apicrypto.marccervantes.com/"
+                    title="The Simpsons Wiki"
+                    description={t("theSimpsons")}
+                    image="/images/projects/theSimpsons.webp"
+                    repoUrl="https://github.com/marccervantes/thesimpsons"
+                    demoUrl="https://thesimpsons.marccervantes.com/"
                     techs={[
-                        { name: "ReactJS", icon: "/images/languages/react.webp" },
-                        { name: "Bootstrap", icon: "/images/languages/bootstrap.webp" },
+                        { name: "Next.js", icon: "/images/languages/nextjs.webp" },
+                        { name: "Tailwind CSS", icon: "/images/languages/tailwindcss.webp" },
+                        { name: "CSS", icon: "/images/languages/css.webp" },
                     ]}
                 />
                 <ProjectCard
@@ -66,6 +67,17 @@ const Main: React.FC = () => {
                     techs={[
                         { name: "Next.js", icon: "/images/languages/nextjs.webp" },
                         { name: "Tailwind CSS", icon: "/images/languages/tailwindcss.webp" },
+                    ]}
+                />
+                <ProjectCard
+                    title="Apicrypto"
+                    description={t("apicrypto")}
+                    image="/images/projects/apicrypto.webp"
+                    repoUrl="https://github.com/marccervantes/apicrypto"
+                    demoUrl="https://apicrypto.marccervantes.com/"
+                    techs={[
+                        { name: "ReactJS", icon: "/images/languages/react.webp" },
+                        { name: "Bootstrap", icon: "/images/languages/bootstrap.webp" },
                     ]}
                 />
                 <ProjectCard
