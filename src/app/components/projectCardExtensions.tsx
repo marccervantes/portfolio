@@ -1,11 +1,6 @@
 import Image from "next/image";
 import { useI18n } from "@/i18n/i18nContext";
 
-type Tech = {
-  name: string;
-  icon: string;
-};
-
 type ProjectCardProps = {
   title: string;
   description: string;
@@ -17,7 +12,7 @@ type ProjectCardProps = {
   secondDemoName?: string;
 };
 
-export default function projectCardExtensions({
+export default function ProjectCardExtensions({
   title,
   description,
   image,
