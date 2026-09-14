@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { useI18n } from '@/i18n/i18nContext';
 import ProjectCard from './projectCard';
+import ProjectCardExtensions from './projectCardExtensions';
 
 const Main: React.FC = () => {
     const { t } = useI18n();
@@ -57,6 +58,16 @@ const Main: React.FC = () => {
                         { name: "Tailwind CSS", icon: "/images/languages/tailwindcss.webp" },
                         { name: "CSS", icon: "/images/languages/css.webp" },
                     ]}
+                />
+                <ProjectCardExtensions
+                    title="UpNow - YouTube and Twitch Watcher"
+                    description={t("upNow")}
+                    image="/images/projects/upnow.webp"
+                    repoUrl="https://github.com/marccervantes/upnow"
+                    demoUrl="https://chromewebstore.google.com/detail/upnow-youtube-and-twitch/fdimjpjmhoaiaiohoefpmbppimekackf"
+                    demoName="Chrome's Extension"
+                    secondDemoUrl="#projects"
+                    secondDemoName="Firefox Add-on (Soon)"
                 />
                 <ProjectCard
                     title="Sushi Counter"

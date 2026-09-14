@@ -39,7 +39,7 @@ export default function ProjectCard({
       </a>
 
       <div className="w-full mt-8 md:w-[80%] text-center md:text-start flex flex-col items-start justify-center leading-[1.8rem] gap-[1.2rem]">
-        <p className="text-[2.8rem] w-full font-bold text-black">{title}</p>
+        <p className="text-[2.8rem] w-full font-bold text-black leading-12">{title}</p>
         <p className="font-medium text-[var(--font-color-2)] [text-wrap:pretty]">
           {description}
         </p>
